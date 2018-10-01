@@ -12,7 +12,8 @@ while (menu!=6)
                 let precioCompraNueva = prompt("Ingrese el precio de compra del producto nuevo");
                 let precioVentaNueva = prompt("Ingrese el precio de venta del producto nuevo");
                 let stockNuevo = prompt("Ingrese el stock del nuevo producto");
-                agregarProducto(codigoNuevo,descripcionNueva,tipoNuevo,precioCompraNueva,precioVentaNueva,stockNuevo);
+                let algo = agregarProducto(codigoNuevo,descripcionNueva,tipoNuevo,precioCompraNueva,precioVentaNueva,stockNuevo);
+                console.log(algo);
                 break;
         case '2':
                 let codigoModificar = prompt("Ingrese el codigo del producto a modificar");
